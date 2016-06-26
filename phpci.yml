@@ -1,0 +1,9 @@
+build_settings:
+    ignore:
+        - "vendor"
+        - "tests"
+        - "docs"
+ 
+setup:
+    composer:
+        action: "install"
